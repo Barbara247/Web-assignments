@@ -1,0 +1,230 @@
+Alumni Forms<!DOCTYPE html>
+<html>
+<head>
+<title>Almuni Form</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1 align="center">Dzodze-Penyi Senior High School Alumni Registration Form</h1>
+<hr>
+</header>
+<nav></nav>
+<main>
+<form action="" method="post">
+<fieldset>
+<legend>Personal Details</legend>
+<label for="surname">SURNAME:</label>
+<input type="text"
+name="surname"
+id="surname"
+class="req"
+placeholder="Enter your Surname"
+title="Enter your Surname"
+required
+/> <br>
+<label for="fistname">FIRST NAME:</label>
+<input type="text"
+name="fistname"
+id="firstname"
+class="req"
+placeholder="Enter your First Name"
+title="Enter your First Name"
+required
+/> <br>
+<label for="dob">DATE OF BIRTH:</label>
+<input type="date"
+name="dob"
+id="dob"
+class="req"
+placeholder="Enter your Date of Birth"
+title="Enter your Date of Birth"
+max="2025-12-03"
+required
+/> <br>
+<label for="gender">GENDER:</label>
+<select name="gender" id="gender">
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select> <br>
+<label for="email">Email Address:</label>
+<input type="email"
+name="email"
+id="email"
+class="req"
+required
+placeholder="eg;ksts@gmail.com"
+title="Enter your email address"
+/> <br>
+<label for="contact">Phone Number:</label>
+<input type="tel"
+name="contact"
+id="contact"
+class="req"
+pattern="[0-9]{3}-[0-9]{7}"
+required
+placeholder="xxx-xxxxxxx"
+title="Enter your Phone Number"
+/> <br>
+</fieldset>
+<fieldset>
+<legend>Junior High School(JHS) Detail</legend>
+<label for="jhs">Name of JHS attended:</label>
+<input type="text"
+name="jhs"
+id="jhs"
+required
+class="req"
+placeholder="Enter the Name of JHS attended"
+title="Enter your JHS"
+/> <br>
+<label for="region">Region of JHS attended:</label>
+<input type="text"
+name="region"
+id="region"
+class="req"
+required
+placeholder="eg; Eastern Region"
+title="Enter the Region of JHS attended"
+/> <br>
+</fieldset>
+<fieldset>
+<legend>Senior High School(SHS) Details</legend>
+<label for="index">Index Number:</label>
+<input type="text"
+name="index"
+id="index"
+class="req"
+required
+placeholder="Enter Your Index Number"
+title="Enter Your Index Number"
+/> <br>
+<label for="course">Programme of Study:</label>
+<select name="course" id="course" required>
+<option value="General Arts">General Arts</option>
+<option value="General Science">General Science</option>
+<option value="technical">Technical</option>
+<option value="visual arts">Visual Arts</option>
+</select> <br>
+<label for="completion">Date of Completion:</label>
+<input type="date"
+name="completion"
+id="completion"
+class="req"
+required
+/> <br>
+<label for="admission">Date of Admission:</label>
+<input type="date"
+name="admission"
+id="admission"
+class="req"
+max="2024-12-12"
+/> <br>
+<label for="nickname">Enter your nickname used in school:</label>
+<input type="text"
+name="nickname"
+id="nickname"
+required
+placeholder="Enter your Nickname"
+title="Enter your nickname"
+/> <br>
+<label for="house">Select your School House Number:</label>
+<select name="house" id="house">
+<option value="House 1">House 1</option>
+<option value="House 2">House 2</option>
+<option value="House 3">House 3</option>
+<option value="House 4">House 4</option>
+<option value="House 5">House 5</option>
+</select> <br>
+<label for="position">Select Position Held in School:</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="SP">School Prefect</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="ASP">Assistant School Prefect</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="GP">Girls Prefect</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="AGP">Assistant Girls Prefect</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="CO">Compound Overseer</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="ACO">Assistant Compound Overseer</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="DormP">Dormitory Prefect</label> <br>
+<input type="radio"
+name="position"
+id="position"
+required
+class="req"
+/> <label for="position" name="position" id="ADP">Assistant Dorm Prefect</label> <br>
+</fieldset>
+<fieldset>
+<legend>Other Informations</legend>
+<label for="sports">Choose the sports you loved in School:</label> <br>
+<input type="checkbox"
+name="sports"
+id="sports"
+required
+/><label for="sports" name="football" id="football">Football</label> <br>
+<input type="checkbox"
+name="sports"
+id="sports"
+required
+/><label for="sports" name="Basketball" id="Basketball">Basketball</label> <br>
+<input type="checkbox"
+name="sports"
+id="sports"
+required
+/><label for="sports" name="Baseball" id="Baseball">Baseball</label> <br>
+<input type="checkbox"
+name="sports"
+id="sports"
+required
+/><label for="sports" name="tennisball" id="tennisball">Tennis ball</label> <br>
+<input type="checkbox"
+name="sports"
+id="sports"
+required
+/><label for="sports" name="handball" id="handball">Hand ball</label> <br>
+<input type="checkbox"
+name="sports"
+id="sports"
+required
+/><label for="sports" name="Volleytball" id="Volleyball">Volley ball</label> <br>
+</fieldset>
+<button type="submit">SUBMIT</button> <br>
+<button type="reset">CLEAR SELECTIONS</button> <br>
+</form>
+</main>
+<footer>
+</footer>
+</body>
+</html>
